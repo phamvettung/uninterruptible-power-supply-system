@@ -7,6 +7,12 @@ This project is aimed at controlling and monitoring the status of cutting machin
     <img src="/assets/ups.png" width="960" height="540" alt="Final Result"/>
 </div>
 
+## Technology diagram
+<div align="center">
+    <img src="/assets/ups_diagram.png" width="960" height="540" alt="Final Result"/>
+</div>
+ - The Device connect to the Server using raw Socket TCP, message sent and received is a bytes array with 29 of length. Web browser connect to the Server using RESTful API and WebSocket, message sent and received is a JSON String.
+ 
 ## Technologies used
 ### Backend
 - Spring Boot
@@ -22,3 +28,4 @@ This project is aimed at controlling and monitoring the status of cutting machin
 </div>
 
 ## Demo
+https://github.com/user-attachments/assets/bb3c1437-af67-440f-a936-d1a52ee4f34f
